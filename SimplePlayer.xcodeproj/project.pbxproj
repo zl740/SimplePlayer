@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16EA40C617615125008E0B0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EA40C517615125008E0B0B /* UIKit.framework */; };
+		16EA40C817615125008E0B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EA40C717615125008E0B0B /* Foundation.framework */; };
+		16EA40CA17615125008E0B0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EA40C917615125008E0B0B /* CoreGraphics.framework */; };
+		16EA40D017615125008E0B0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16EA40CE17615125008E0B0B /* InfoPlist.strings */; };
+		16EA40D217615125008E0B0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA40D117615125008E0B0B /* main.m */; };
+		16EA40D617615125008E0B0B /* SPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA40D517615125008E0B0B /* SPlayerAppDelegate.m */; };
+		16EA40D817615125008E0B0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 16EA40D717615125008E0B0B /* Default.png */; };
+		16EA40DA17615125008E0B0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16EA40D917615125008E0B0B /* Default@2x.png */; };
+		16EA40DC17615125008E0B0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16EA40DB17615125008E0B0B /* Default-568h@2x.png */; };
+		16EA40DF17615125008E0B0B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EA40DD17615125008E0B0B /* MainStoryboard.storyboard */; };
+		16EA40E217615125008E0B0B /* SPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA40E117615125008E0B0B /* SPlayerViewController.m */; };
+		16EA40E917615DDD008E0B0B /* hard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16EA40E817615DDD008E0B0B /* hard.mp3 */; };
+		16EA40EC17615E63008E0B0B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EA40EB17615E63008E0B0B /* AVFoundation.framework */; };
+		D5A09A3E176659DB00B361E2 /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5A09A3D176659DB00B361E2 /* water.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16EA40C217615125008E0B0B /* SimplePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EA40C517615125008E0B0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16EA40C717615125008E0B0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16EA40C917615125008E0B0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16EA40CD17615125008E0B0B /* SimplePlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplePlayer-Info.plist"; sourceTree = "<group>"; };
+		16EA40CF17615125008E0B0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16EA40D117615125008E0B0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16EA40D317615125008E0B0B /* SimplePlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePlayer-Prefix.pch"; sourceTree = "<group>"; };
+		16EA40D417615125008E0B0B /* SPlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPlayerAppDelegate.h; sourceTree = "<group>"; };
+		16EA40D517615125008E0B0B /* SPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPlayerAppDelegate.m; sourceTree = "<group>"; };
+		16EA40D717615125008E0B0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		16EA40D917615125008E0B0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		16EA40DB17615125008E0B0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		16EA40DE17615125008E0B0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		16EA40E017615125008E0B0B /* SPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPlayerViewController.h; sourceTree = "<group>"; };
+		16EA40E117615125008E0B0B /* SPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPlayerViewController.m; sourceTree = "<group>"; };
+		16EA40E817615DDD008E0B0B /* hard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hard.mp3; path = ../hard.mp3; sourceTree = "<group>"; };
+		16EA40EB17615E63008E0B0B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D5A09A3D176659DB00B361E2 /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16EA40BF17615125008E0B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EA40EC17615E63008E0B0B /* AVFoundation.framework in Frameworks */,
+				16EA40C617615125008E0B0B /* UIKit.framework in Frameworks */,
+				16EA40C817615125008E0B0B /* Foundation.framework in Frameworks */,
+				16EA40CA17615125008E0B0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EA40B917615125008E0B0B = {
+			isa = PBXGroup;
+			children = (
+				16EA40CB17615125008E0B0B /* SimplePlayer */,
+				16EA40C417615125008E0B0B /* Frameworks */,
+				16EA40C317615125008E0B0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16EA40C317615125008E0B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16EA40C217615125008E0B0B /* SimplePlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16EA40C417615125008E0B0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16EA40EB17615E63008E0B0B /* AVFoundation.framework */,
+				16EA40C517615125008E0B0B /* UIKit.framework */,
+				16EA40C717615125008E0B0B /* Foundation.framework */,
+				16EA40C917615125008E0B0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16EA40CB17615125008E0B0B /* SimplePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				16EA40EA17615DF3008E0B0B /* audio */,
+				16EA40DD17615125008E0B0B /* MainStoryboard.storyboard */,
+				16EA40E017615125008E0B0B /* SPlayerViewController.h */,
+				16EA40E117615125008E0B0B /* SPlayerViewController.m */,
+				16EA40CC17615125008E0B0B /* Supporting Files */,
+			);
+			path = SimplePlayer;
+			sourceTree = "<group>";
+		};
+		16EA40CC17615125008E0B0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16EA40D417615125008E0B0B /* SPlayerAppDelegate.h */,
+				16EA40D517615125008E0B0B /* SPlayerAppDelegate.m */,
+				16EA40CD17615125008E0B0B /* SimplePlayer-Info.plist */,
+				16EA40CE17615125008E0B0B /* InfoPlist.strings */,
+				16EA40D117615125008E0B0B /* main.m */,
+				16EA40D317615125008E0B0B /* SimplePlayer-Prefix.pch */,
+				16EA40D717615125008E0B0B /* Default.png */,
+				16EA40D917615125008E0B0B /* Default@2x.png */,
+				16EA40DB17615125008E0B0B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16EA40EA17615DF3008E0B0B /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				D5A09A3D176659DB00B361E2 /* water.mp3 */,
+				16EA40E817615DDD008E0B0B /* hard.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16EA40C117615125008E0B0B /* SimplePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EA40E517615125008E0B0B /* Build configuration list for PBXNativeTarget "SimplePlayer" */;
+			buildPhases = (
+				16EA40BE17615125008E0B0B /* Sources */,
+				16EA40BF17615125008E0B0B /* Frameworks */,
+				16EA40C017615125008E0B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePlayer;
+			productName = SimplePlayer;
+			productReference = 16EA40C217615125008E0B0B /* SimplePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16EA40BA17615125008E0B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPlayer;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Uri Nieto";
+			};
+			buildConfigurationList = 16EA40BD17615125008E0B0B /* Build configuration list for PBXProject "SimplePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16EA40B917615125008E0B0B;
+			productRefGroup = 16EA40C317615125008E0B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16EA40C117615125008E0B0B /* SimplePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16EA40C017615125008E0B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EA40D017615125008E0B0B /* InfoPlist.strings in Resources */,
+				16EA40D817615125008E0B0B /* Default.png in Resources */,
+				16EA40DA17615125008E0B0B /* Default@2x.png in Resources */,
+				16EA40DC17615125008E0B0B /* Default-568h@2x.png in Resources */,
+				16EA40DF17615125008E0B0B /* MainStoryboard.storyboard in Resources */,
+				16EA40E917615DDD008E0B0B /* hard.mp3 in Resources */,
+				D5A09A3E176659DB00B361E2 /* water.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16EA40BE17615125008E0B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EA40D217615125008E0B0B /* main.m in Sources */,
+				16EA40D617615125008E0B0B /* SPlayerAppDelegate.m in Sources */,
+				16EA40E217615125008E0B0B /* SPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16EA40CE17615125008E0B0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EA40CF17615125008E0B0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16EA40DD17615125008E0B0B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EA40DE17615125008E0B0B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16EA40E317615125008E0B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16EA40E417615125008E0B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16EA40E617615125008E0B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePlayer/SimplePlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimplePlayer/SimplePlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16EA40E717615125008E0B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePlayer/SimplePlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimplePlayer/SimplePlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16EA40BD17615125008E0B0B /* Build configuration list for PBXProject "SimplePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EA40E317615125008E0B0B /* Debug */,
+				16EA40E417615125008E0B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16EA40E517615125008E0B0B /* Build configuration list for PBXNativeTarget "SimplePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EA40E617615125008E0B0B /* Debug */,
+				16EA40E717615125008E0B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16EA40BA17615125008E0B0B /* Project object */;
+}
